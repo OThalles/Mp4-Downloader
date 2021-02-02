@@ -61,7 +61,7 @@ class Application(Funcs):
         self.root.title('Video Downloader')
         self.root.configure(background = '#E0E0F8')
         self.root.geometry('800x800')
-        self.root.resizable(True, True)
+        self.root.resizable(False, False)
         self.root.maxsize(width=400, height=400)
         self.root.minsize(width=400, height=400)
     def frames(self):
