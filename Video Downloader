@@ -1,6 +1,5 @@
 from tkinter import *
 from tkinter import ttk
-from moviepy.video.io.VideoFileClip import VideoFileClip
 import pytube
 import time
 
@@ -104,7 +103,7 @@ class Application(Funcs):
         var = StringVar()
         self.entry_1 = Entry(self.frame_1, bg='#DCDCDC', textvariable=var)
         self.entry_1.place(relx=0.20, rely=0.35, relwidth=0.59, relheight=0.05)
-        # INTVAR
+        
 
     def progressbar(self):
         global progressvar
